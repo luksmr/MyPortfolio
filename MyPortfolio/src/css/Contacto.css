@@ -1,0 +1,13 @@
+.card {
+    background-color: #151419;
+    
+    transition: transform 0.4s, box-shadow 0.3s;
+    color: snow;
+    border: none; /* Elimina los bordes */
+    box-shadow: none;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    
+}
